@@ -211,6 +211,9 @@ body {
 	box-sizing: border-box;
 	background-color: #e8e8e8;
 	overflow: hidden;
+	font-family: "Avenir", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 .mockup-view-container {
 	margin-top: 50px;
@@ -219,9 +222,6 @@ body {
 	margin-top: 0;
 }
 #app {
-	font-family: "Avenir", Helvetica, Arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 	box-sizing: border-box;
 	width: 100%;
 	height: 100%;
