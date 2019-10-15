@@ -43,7 +43,7 @@ export default {
 }
 @media screen and (max-width: 960px) {
     .publisher-logo {
-        padding: 20px;
+        /* padding: 20px; */
     }    
 }
 </style>
