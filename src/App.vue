@@ -230,8 +230,10 @@ export default {
           break;
         case "instagram":
           if (this.unzippedImages.length > 1) {
-            this.mockupTypes = [];
-            return this.$dialogs.alert("Instagram doesn't support carousels");
+            this.mockupTypes = [
+              "instagram-carousel"
+            ];
+            // return this.$dialogs.alert("Instagram doesn't support carousels");
           } else {
             this.mockupTypes = ["instagram-standard", "instagram-story"];
           }

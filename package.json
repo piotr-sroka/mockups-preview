@@ -15,7 +15,9 @@
     "jszip": "^3.2.2",
     "jszip-utils": "^0.1.0",
     "v-slim-dialog": "0.0.9",
-    "vue": "^2.5.2"
+    "vue": "^2.5.2",
+    "vue-swipe": "^2.4.0",
+    "vue2-touch-events": "^2.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

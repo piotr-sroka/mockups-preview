@@ -4246,7 +4246,8 @@ ul.ColVis_collection>span {
 
 .smc-mockup-vk--carousel .smc-mockup-media,
 .smc-mockup-facebook--carousel .smc-mockup-media,
-.smc-mockup-linkedin--carousel .smc-mockup-media {
+.smc-mockup-linkedin--carousel .smc-mockup-media,
+.smc-mockup-instagram--carousel .smc-mockup-media {
     overflow: hidden;
 }
 
@@ -4255,12 +4256,16 @@ ul.ColVis_collection>span {
 .smc-mockup-facebook--carousel .smc-facebook-carousel,
 .smc-mockup-facebook--carousel-mobile .smc-facebook-carousel,
 .smc-mockup-linkedin--carousel .smc-linkedin-carousel,
-.smc-mockup-linkedin--carousel-mobile .smc-linkedin-carousel {
+.smc-mockup-linkedin--carousel-mobile .smc-linkedin-carousel,
+.smc-mockup-instagram--carousel .smc-instagram-carousel {
     left: 0;
     display: flex;
     margin: 0 10px;
     position: relative;
     transition: all 0.3s ease-in-out;
+}
+.smc-mockup-instagram--carousel .smc-instagram-carousel {
+    margin: 0;
 }
 
 .smc-mockup-vk--carousel .smc-carousel-item,
@@ -4268,13 +4273,19 @@ ul.ColVis_collection>span {
 .smc-mockup-facebook--carousel .smc-carousel-item,
 .smc-mockup-facebook--carousel-mobile .smc-carousel-item,
 .smc-mockup-linkedin--carousel .smc-carousel-item,
-.smc-mockup-linkedin--carousel-mobile .smc-carousel-item {
+.smc-mockup-linkedin--carousel-mobile .smc-carousel-item,
+.smc-mockup-instagram--carousel .smc-carousel-item {
     cursor: pointer;
     min-width: 300px;
     max-width: 300px;
     margin-right: 10px;
     transition: opacity 0.1s ease-in-out;
     position: relative;
+}
+.smc-mockup-instagram--carousel .smc-carousel-item {
+    min-width: 318px;
+    max-width: 318px;
+    margin-right: 0;
 }
 
 .smc-mockup-vk--carousel-mobile .smc-carousel-item,
@@ -4449,7 +4460,8 @@ ul.ColVis_collection>span {
 .smc-mockup-vk--carousel .smc-facebook-post--description,
 .smc-mockup-vk--carousel-mobile .smc-facebook-post--description,
 .smc-mockup-facebook--carousel .smc-facebook-post--description,
-.smc-mockup-facebook--carousel-mobile .smc-facebook-post--description {
+.smc-mockup-facebook--carousel-mobile .smc-facebook-post--description,
+.smc-mockup-instagram--carousel .smc-facebook-post--description {
     height: 40px;
     text-overflow: ellipsis;
     overflow: hidden;
