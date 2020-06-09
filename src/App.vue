@@ -263,6 +263,14 @@ export default {
             this.mockupTypes = ["vk-desktop", "vk-mobile"];
           }
           break;
+        case "xing":
+          if (this.unzippedImages.length > 1) {
+            this.mockupTypes = [];
+            return this.$dialogs.alert("Xing doesn't support carousels");
+          } else {
+            this.mockupTypes = ["xing-desktop", "xing-mobile"];
+          }
+          break;
       }
     },
     setPublisher(publisher) {

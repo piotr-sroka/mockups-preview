@@ -21,7 +21,8 @@ export default {
 				{name: "instagram", logo: "static/instagram_logo.svg", carouselAvailable: true},
 				{name: "linkedin", logo: "static/linkedin_logo.svg", carouselAvailable: true},
 				{name: "twitter", logo: "static/twitter_logo.svg", carouselAvailable: false},
-				{name: "vk", logo: "static/vk_logo.svg", carouselAvailable: true}
+				{name: "vk", logo: "static/vk_logo.svg", carouselAvailable: true},
+				{name: "xing", logo: "static/xing_logo.svg", carouselAvailable: false},
 			],
 			activePublisher: ""
 		};
