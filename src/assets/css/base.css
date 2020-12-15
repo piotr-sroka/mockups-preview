@@ -4,6 +4,10 @@
     src: url("/static/fonts/edge-icons-Regular.woff");
 }
 
+img {
+    display: block;
+}
+
 .page-container {
     padding: 10px;
 }

@@ -1,3 +1,6 @@
+img {
+    display: block;
+}
 .mockup-fade-enter-active,
 .mockup-fade-leave-active {
 	transition: all 0.5s;
