@@ -23,6 +23,7 @@ export default {
 				{name: "twitter", logo: "static/twitter_logo.svg", carouselAvailable: false},
 				{name: "vk", logo: "static/vk_logo.svg", carouselAvailable: true},
 				{name: "xing", logo: "static/xing_logo.svg", carouselAvailable: false},
+				{name: "reddit", logo: "static/reddit_logo.svg", carouselAvailable: false},
 			],
 			activePublisher: ""
 		};

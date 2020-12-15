@@ -271,6 +271,14 @@ export default {
             this.mockupTypes = ["xing-desktop", "xing-mobile"];
           }
           break;
+        case "reddit":
+          if (this.unzippedImages.length > 1) {
+            this.mockupTypes = [];
+            return this.$dialogs.alert("Reddit doesn't support carousels");
+          } else {
+            this.mockupTypes = ["reddit-desktop", "reddit-mobile"];
+          }
+          break;
       }
     },
     setPublisher(publisher) {
